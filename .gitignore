@@ -1,0 +1,10 @@
+archive/
+local/
+__pycache__/
+.ipynb_checkpoints/
+package*/
+*.zip
+*.so
+*.docx
+mektro2020_2021_intermediate.html
+
