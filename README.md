@@ -10,7 +10,7 @@ Vous trouverez ici des ressources permettant à tout mécatronicien et à toute 
 
 Nous avons ici deux exemples de notebooks Jupyter que vous pouvez télécharger et essayer avec votre Miniconda.
 
-- [Example 1 - A Rankine cycle with CoolProp.ipynb](Example 1 - A Rankine cycle with CoolProp.ipynb)
+- [Example 1 - A Rankine cycle with CoolProp.ipynb](Example_1 __A_Rankine_cycle_with_CoolProp.ipynb)
 - [Example 2 - Scipy special functions and Fipy.ipynb](Example 2 - Scipy special functions and Fipy.ipynb)
 
 ## Maintenant, à vous de jouer
