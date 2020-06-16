@@ -2,7 +2,9 @@
 
 Vous trouverez ici des ressources permettant à tout mécatronicien et à toute mécatronicienne d'accéder à un environnement logiciel Python scientifique standardisé et fonctionnel.
 
-## Installation de l'environnement Miniconda 3 avec Jupyter Notebook, Python scientifique et bibliothèques logicielles spécifiques
+## Installation de l'environnement Miniconda 3
+
+*avec Jupyter Notebook, Python scientifique et bibliothèques logicielles spécifiques*
 
 [Voici](mektro2020_2021_installation_miniconda3_python_gfm.md) les instructions, conseils et consignes. (Il y a aussi une version [PDF](mektro2020_2021_installation_miniconda3_python.pdf)).
 
