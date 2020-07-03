@@ -135,7 +135,7 @@ instructions "conda config"**.
 ```
 conda config --add channels conda-forge
 
-conda config --set channel\_priority strict
+conda config --set channel_priority strict
 
 conda install scipy
 
@@ -191,7 +191,7 @@ dans votre dossier "Documents" intitulé "my-first-notebooks". Pour
 commande:
 
 ```
-cd /Users/\<votre nom d'utilisateur\>/Documents/my-first-notebooks
+cd /Users/<votre nom d'utilisateur>/Documents/my-first-notebooks
 ```
 
 Vous pouvez obtenir le chemin précis via l'explorateur Windows, avec un
@@ -202,7 +202,7 @@ Une commande utile pour vérifier que vous êtes bien arrivé.e à bon port
 est "dir", ce qui affiche le contenu du répertoire (du dossier). *La
 commande équivalente OS X/Linux est* "ls".
 
-1\. Téléchargez les deux notebooks suivants, et placez-les dans votre
+1. Téléchargez les deux notebooks suivants, et placez-les dans votre
 répertoire "my-first-notebooks".
 
 ```
@@ -211,22 +211,22 @@ répertoire "my-first-notebooks".
 "Example 2 - Scipy special functions and Fipy.ipynb"
 ```
 
-2\. Ouvrez l'application "**Anaconda Prompt (miniconda3)**" pour
+2. Ouvrez l'application "**Anaconda Prompt (miniconda3)**" pour
 retrouver l'interface en ligne de commande.
 
-3\. Utilisez la bonne commande "cd" pour rendre ce répertoire
+3. Utilisez la bonne commande "cd" pour rendre ce répertoire
 "my-first-notebooks" le répertoire de travail pour la ligne de commande.
 
-4\. Démarrez le Jupyter Notebook:
+4. Démarrez le Jupyter Notebook:
 
 ```
 jupyter notebook
 ```
 
-5\. Ouvrez les fichiers Notebook en utilisant la page d'accueil de
+5. Ouvrez les fichiers Notebook en utilisant la page d'accueil de
 Jupyter Notebook dans votre navigateur.
 
-6\. Jouez.
+6. Jouez.
 
 <div style="page-break-after: always"></div>
 
