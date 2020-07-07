@@ -2,7 +2,7 @@
 
 *Ecole normale supérieure de Rennes*
 
-version du 16 juin 2020
+version du 7 juillet 2020
 
 ## Remarques générales
 
@@ -46,13 +46,17 @@ En cas de questions ou problèmes, contactez Martin Werts (par mél, par exemple
 
 ## Installation, partie 1 (spécifique au système d'exploitation)
 
-Instructions spécifiques pour Windows. Les procédures pour OS X et Linux
-sont similaires.
+
 
 **Avant d'installer Miniconda3, supprimez toute installation antérieure
 de Anaconda ou Miniconda de votre système.**
 
-### (a) installation Miniconda3
+Ici suivront les instructions spécifiques pour Windows. Les procédures pour OS X et Linux
+sont similaires. Les particularités de l'installation sur ces deux systèmes-là sont décrites en bas.
+
+### Windows
+
+#### (a) installation Miniconda3
 
 Visitez le lien:
 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
@@ -100,7 +104,7 @@ suivantes.
 
 <div style="page-break-after: always"></div>
 
-### (b) Ouvrir une fenêtre avec l'interface en ligne de commande, environnement "Anaconda/Miniconda" activé.
+#### (b) Ouvrir une fenêtre avec l'interface en ligne de commande, environnement "Anaconda/Miniconda" activé.
 
 Ouvrez le menu principal/la barre de recherches dans Windows, et
 cherchez "**Anaconda Prompt (miniconda3)**"
@@ -115,6 +119,50 @@ retrouver l'interface en ligne de commande pour la suite des opérations.
 <img src="media/image9.png" alt="screen shot 9" title="screen shot 9" width="90%"/>
 
 <div style="page-break-after: always"></div>
+
+
+### Particularités pour OS X
+
+*Sébastien Gardette a utilisé cette procédure d'installation avec succès.*
+
+Visitez le lien:
+[https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
+pour le logiciel d'installation de "Miniconda3".
+
+Téléchargez et exécutez **Miniconda3 MacOSX 64-bit pkg**. Suivez les instructions, en vous référant aux instructions Windows pour choisir les options.
+
+Ouvrez une fenêtre "Terminal" ou "Miniconda Prompt" (interface en ligne de commande) pour la suite ("Installation, partie 2").
+
+
+
+### Particularités pour Linux
+
+**IMPORTANT** Il n'est pas nécessaire (c'est même déconseillé) d'installer Miniconda3 avec des privilèges "administrateur de système". Evitez donc ``sudo``.
+
+Visitez le lien:
+[https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
+pour le logiciel d'installation de "Miniconda3". La version à installer est "Miniconda3 Linux 64-bit".
+
+Des [instructions pour installer](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) sont disponibles sur le site oueb de Conda. En particulier, pour exécuter le script d'installation on peut utiliser (ligne de commande, avec le répertoire de téléchargement comme répertoire de travail).
+
+```
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+
+Répondre aux questions suivant les indications données pour l'installation Windows. *Attention* en particulier de bien répondre "YES" à la question “Do you wish the installer to initialize Anaconda3 by running conda init?” (sauf si vous avez vraiment une bonne raison pour répondre "NON"...)
+
+Pour commencer la partie 2 de l'installation, il faut fermer la fenêtre Terminal et en ouvrir une autre.
+
+
+
+#### Suggestion de Claire Livet
+
+Cela arrive facilement de répondre "NON" de façon non intentionnelle à la question sur l'initialisation. Dans ce cas:
+
+
+> If you enter “no”, then conda will not modify your shell scripts at all. In order to initialize after the installation process is done, first run ``source <path to conda>/bin/activate`` and then run ``conda init``.
+
+
 
 ## Installation, partie 2 (identique pour Windows, OS X, Linux)
 
