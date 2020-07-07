@@ -13,7 +13,7 @@ Voici les [instructions, conseils et consignes](mektro2020_2021_installation_min
 Nous avons ici deux exemples de notebooks Jupyter que vous pouvez télécharger et essayer avec votre Miniconda.
 
 - [Example 1 - A Rankine cycle with CoolProp.ipynb](./Example%201%20-%20A%20Rankine%20cycle%20with%20CoolProp.ipynb) - Téléchargement direct: [(clic-droit)](https://raw.githubusercontent.com/mhvwerts/Python-mecatronique/master/Example%201%20-%20A%20Rankine%20cycle%20with%20CoolProp.ipynb)
-- [Example 2 - Scipy special functions and Fipy.ipynb](https://github.com/mhvwerts/Python-mecatronique/blob/master/Example%202%20-%20Scipy%20special%20functions%20and%20Fipy.ipynb) - Téléchargement direct: [(clic-droit)](https://raw.githubusercontent.com/mhvwerts/Python-mecatronique/master/Example%202%20-%20Scipy%20special%20functions%20and%20Fipy.ipynb)
+- [Example 2 - Scipy special functions and Fipy.ipynb](./Example%202%20-%20Scipy%20special%20functions%20and%20Fipy.ipynb) - Téléchargement direct: [(clic-droit)](https://raw.githubusercontent.com/mhvwerts/Python-mecatronique/master/Example%202%20-%20Scipy%20special%20functions%20and%20Fipy.ipynb)
 
 ## Maintenant, à vous de jouer
 
