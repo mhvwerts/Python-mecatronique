@@ -6,7 +6,7 @@ Vous trouverez ici des ressources permettant à tout mécatronicien et à toute 
 
 *avec Jupyter Notebook, Python scientifique et bibliothèques logicielles spécifiques*
 
-[Voici](mektro2020_2021_installation_miniconda3_python_gfm.md) les instructions, conseils et consignes. (Il y a aussi une version [PDF](mektro2020_2021_installation_miniconda3_python.pdf)).
+Voici les [instructions, conseils et consignes](mektro2020_2021_installation_miniconda3_python_gfm.md). (Il y a aussi une version [PDF](mektro2020_2021_installation_miniconda3_python.pdf)).
 
 ## Quelques exemples
 
