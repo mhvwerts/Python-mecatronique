@@ -282,7 +282,7 @@ Jupyter Notebook dans votre navigateur.
 
 ## Remarks about this document
 
-This document was converted from ``docx`` to Github-flavored Markdown (``gfm``) using [Pandoc](https://pandoc.org) and edited further. 
+This document was initially converted from ``docx`` to Github-flavored Markdown (``gfm``) using [Pandoc](https://pandoc.org) and then edited further. 
 
 A ``docx`` file can be generated using [Pandoc](https://pandoc.org).
 
@@ -302,4 +302,3 @@ pandoc mektro2020_2021_installation_miniconda3_python_gfm.md -f gfm -t html -s -
 ## To-do's
 - Check grammar and spelling on this document.
 - Fix the layout on the generated DOCX and PDF documents.
-- Add specific OS X and Linux instructions, if necessary.
