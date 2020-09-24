@@ -2,7 +2,7 @@
 
 *Ecole normale supérieure de Rennes*
 
-version du 7 juillet 2020
+version du 24 septembre 2020
 
 La version la plus récente de ce document: [https://github.com/mhvwerts/Python-mecatronique](https://github.com/mhvwerts/Python-mecatronique).
 
