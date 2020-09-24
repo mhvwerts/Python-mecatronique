@@ -46,7 +46,7 @@ En cas de questions ou problèmes, contactez Martin Werts (par mél, par exemple
 
 <div style="page-break-after: always"></div>
 
-## Installation, partie 1 (spécifique au système d'exploitation)
+## 1. Installation, partie 1 (spécifique au système d'exploitation)
 
 
 
@@ -56,9 +56,9 @@ de Anaconda ou Miniconda de votre système.**
 Ici suivront les instructions spécifiques pour Windows. Les procédures pour OS X et Linux
 sont similaires. Les particularités de l'installation sur ces deux systèmes-là sont décrites en bas.
 
-### Windows
+### 1.1. Windows
 
-#### (a) installation Miniconda3
+#### 1.1.1. installation Miniconda3
 
 Visitez le lien:
 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
@@ -106,7 +106,7 @@ suivantes.
 
 <div style="page-break-after: always"></div>
 
-#### (b) Ouvrir une fenêtre avec l'interface en ligne de commande, environnement "Anaconda/Miniconda" activé.
+#### 1.1.2. Ouvrir une fenêtre avec l'interface en ligne de commande, environnement "Anaconda/Miniconda" activé.
 
 Ouvrez le menu principal/la barre de recherches dans Windows, et
 cherchez "**Anaconda Prompt (miniconda3)**"
@@ -123,7 +123,7 @@ retrouver l'interface en ligne de commande pour la suite des opérations.
 <div style="page-break-after: always"></div>
 
 
-### Particularités pour OS X
+### 1.2. Particularités pour OS X
 
 *Sébastien Gardette a utilisé cette procédure d'installation avec succès.*
 
@@ -137,7 +137,7 @@ Ouvrez une fenêtre "Terminal" ou "Miniconda Prompt" (interface en ligne de comm
 
 
 
-### Particularités pour Linux
+### 1.3. Particularités pour Linux
 
 **IMPORTANT** Il n'est pas nécessaire (c'est même déconseillé) d'installer Miniconda3 avec des privilèges "administrateur de système". Evitez donc ``sudo``.
 
@@ -166,7 +166,7 @@ Cela arrive facilement de répondre "NON" de façon non intentionnelle à la que
 
 
 
-## Installation, partie 2 (identique pour Windows, OS X, Linux)
+## 2. Installation, partie 2 (identique pour Windows, OS X, Linux)
 
 Dans cette partie, nous suivrons une approche "pas à pas" prudente. En
 particulier, l'installation de scipy prendra un certain temps et donnera
@@ -192,6 +192,8 @@ conda install scipy
 conda install matplotlib
 
 conda install notebook
+
+conda install spyder
 
 conda install coolprop
 
@@ -220,7 +222,7 @@ d'installer.
 
 <div style="page-break-after: always"></div>
 
-## Prise en main et premiers essais
+## 3. Prise en main et premiers essais
 
 *Les indications ci-dessous sont basées sur une utilisation avec
 Windows. Les utilisa.teurs.trices de OS X et Linux sont sans doute assez
