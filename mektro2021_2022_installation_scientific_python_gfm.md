@@ -2,7 +2,7 @@
 
 *Ecole normale supérieure de Rennes*
 
-version du 24 septembre 2020
+version du 17 août 2021 (**en cours de révision**)
 
 La version la plus récente de ce document: [https://github.com/mhvwerts/Python-mecatronique](https://github.com/mhvwerts/Python-mecatronique).
 
@@ -37,12 +37,11 @@ OS X et Linux, les procédures sont similaires. Une fois l'interface en
 ligne de commande ouverte, avec l'environnement Anaconda/Miniconda
 activé, les instructions sur les trois systèmes sont identiques.
 
-**Nota bene.** *Nous sommes conscients que d'autres procédures
-d'installation sont envisageables, mais nous ne pouvons pas garantir
-leur pertinence. Nous ne serons pas en mesure de vous aider en cas de
-problèmes avec ces procédures.*
+**Nota bene 1.** *Notre conseil est d'utiliser* **Python 3.7** *afin de garantir la meilleure compatibilité. Cherchez donc à installer cette version stable.*
+ 
+**Nota bene 2.** *Nous sommes conscients que d'autres procédures d'installation sont envisageables, mais nous ne pouvons pas garantir leur pertinence. Nous ne serons pas en mesure de vous aider en cas de problèmes avec ces procédures. En revanche, si vous avez du succès avec votre propre méthode, n'hésitez pas à la partager avec nous.*
 
-En cas de questions ou problèmes, contactez Martin Werts (par mél, par exemple).
+En cas de questions ou problèmes, contactez Martin Werts ou Lancelot Barthe (par mél, par exemple).
 
 <div style="page-break-after: always"></div>
 
@@ -58,7 +57,7 @@ sont similaires. Les particularités de l'installation sur ces deux systèmes-l�
 
 ### 1.1. Windows
 
-#### 1.1.1. installation Miniconda3
+#### 1.1.1. installation Miniconda3 (Python 3.7)
 
 Visitez le lien:
 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
@@ -131,7 +130,7 @@ Visitez le lien:
 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
 pour le logiciel d'installation de "Miniconda3".
 
-Téléchargez et exécutez **Miniconda3 MacOSX 64-bit pkg**. Suivez les instructions, en vous référant aux instructions Windows pour choisir les options.
+Téléchargez et exécutez **Miniconda3 MacOSX 64-bit pkg (Python 3.7)**. Suivez les instructions, en vous référant aux instructions Windows pour choisir les options.
 
 Ouvrez une fenêtre "Terminal" ou "Miniconda Prompt" (interface en ligne de commande) pour la suite ("Installation, partie 2").
 
@@ -139,16 +138,16 @@ Ouvrez une fenêtre "Terminal" ou "Miniconda Prompt" (interface en ligne de comm
 
 ### 1.3. Particularités pour Linux
 
-**IMPORTANT** Il n'est pas nécessaire (c'est même déconseillé) d'installer Miniconda3 avec des privilèges "administrateur de système". Evitez donc ``sudo``.
+**IMPORTANT** *Il n'est pas nécessaire (c'est même déconseillé) d'installer Miniconda3 avec des privilèges "administrateur de système". Evitez donc ``sudo``.*
 
 Visitez le lien:
 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
-pour le logiciel d'installation de "Miniconda3". La version à installer est "Miniconda3 Linux 64-bit".
+pour le logiciel d'installation de "Miniconda3". La version à installer est "Miniconda3 Linux 64-bit (Python 3.7)".
 
 Des [instructions pour installer](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) sont disponibles sur le site oueb de Conda. En particulier, pour exécuter le script d'installation on peut utiliser (ligne de commande, avec le répertoire de téléchargement comme répertoire de travail).
 
 ```
-bash Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-py37_4.10.3-Linux-x86_64.sh
 ```
 
 Répondre aux questions suivant les indications données pour l'installation Windows. *Attention* en particulier de bien répondre "YES" à la question “Do you wish the installer to initialize Anaconda3 by running conda init?” (sauf si vous avez vraiment une bonne raison pour répondre "NON"...)
@@ -284,23 +283,22 @@ Jupyter Notebook dans votre navigateur.
 
 ## Remarks about this document
 
-This document was initially converted from ``docx`` to Github-flavored Markdown (``gfm``) using [Pandoc](https://pandoc.org) and then edited further. 
 
-A ``docx`` file can be generated using [Pandoc](https://pandoc.org).
+The source of this document is in GitHub-flavoured Markdown (``.md``). A DOCX version can be generated using [Pandoc](https://pandoc.org).
 
 ```
-pandoc mektro2020_2021_installation_miniconda3_python_gfm.md -f gfm -t html5 -s -o mektro2020_2021_intermediate.html
+pandoc mektro2021_2022_installation_scientific_python_gfm.md -f gfm -t html5 -s -o mektro2021_2022_installation_scientific_python_intermediate.html
 
-pandoc mektro2020_2021_intermediate.html -f html -t docx -s -o mektro2020_2021_installation_miniconda3_python.docx
+pandoc mektro2021_2022_installation_scientific_python_intermediate.html -f html -t docx -s -o mektro2021_2022_installation_scientific_python_gfm.docx
 ```
 
 A ``PDF`` file can be generated using [Pandoc](https://pandoc.org).
 
 ```
-pandoc mektro2020_2021_installation_miniconda3_python_gfm.md -f gfm -t html -s -o mektro2020_2021_installation_miniconda3_python.pdf
+pandoc mektro2021_2022_installation_scientific_python_gfm.md -f gfm -t html -s -o mektro2021_2022_installation_scientific_python_gfm.pdf
 ```
 
 
 ## To-do's
-- Check grammar and spelling on this document.
+- Create a Makefile to generate the PDF and DOCX, *e.g.* ``make pdf``
 - Fix the layout on the generated DOCX and PDF documents.
