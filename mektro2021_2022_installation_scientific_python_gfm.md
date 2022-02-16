@@ -2,7 +2,7 @@
 
 *Ecole normale supérieure de Rennes*
 
-version du 17 août 2021 (**en cours de révision**)
+version du 16 février 2022 (**en cours de révision**)
 
 La version la plus récente de ce document: [https://github.com/mhvwerts/Python-mecatronique](https://github.com/mhvwerts/Python-mecatronique).
 
@@ -193,7 +193,11 @@ conda install matplotlib
 conda install notebook
 
 conda install spyder
+```
 
+Optionnellement (obligatoirement pour le cours "Thermodynamique et Phénomènes de Transport"), vous pouvez installer CoolProp et Fipy.
+
+```
 conda install coolprop
 
 conda install fipy
@@ -254,13 +258,14 @@ est "dir", ce qui affiche le contenu du répertoire (du dossier). *La
 commande équivalente OS X/Linux est* "ls".
 
 1. Téléchargez les deux notebooks suivants, et placez-les dans votre
-répertoire "my-first-notebooks".
+répertoire "my-first-notebooks". 
 
 ```
 "Example 1 - A Rankine cycle with CoolProp.ipynb"
 
 "Example 2 - Scipy special functions and Fipy.ipynb"
 ```
+(Ces deux notebooks requièrent CoolProp et Fipy; ce n'est donc pas possible de les utiliser si vous n'avez pas installé ces deux bibliothèques.)
 
 2. Ouvrez l'application "**Anaconda Prompt (miniconda3)**" pour
 retrouver l'interface en ligne de commande.
@@ -275,7 +280,7 @@ jupyter notebook
 ```
 
 5. Ouvrez les fichiers Notebook en utilisant la page d'accueil de
-Jupyter Notebook dans votre navigateur.
+Jupyter Notebook dans votre navigateur. (Ou, si vous n'avez pas installé CoolProp et Fipy, créez un nouveau fichier Notebook Python 3)
 
 6. Jouez.
 
