@@ -6,7 +6,7 @@ Vous trouverez ici des ressources permettant à tout mécatronicien et à toute 
 
 *avec Jupyter Notebook, Python scientifique et bibliothèques logicielles spécifiques*
 
-Voici les [instructions, conseils et consignes](mektro2021_2022_installation_scientific_python_gfm.md). (Il y a aussi une version [PDF](mektro2021_2022_installation_scientific_python_gfm.pdf)).
+Voici les [instructions, conseils et consignes](mektro_installation_scientific_python_gfm.md). (Il y a aussi une version [PDF](mektro_installation_scientific_python_gfm.pdf)).
 
 ## Quelques exemples
 

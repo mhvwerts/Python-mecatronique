@@ -2,7 +2,7 @@
 
 *Ecole normale supérieure de Rennes*
 
-version du 16 février 2022 (**en cours de révision**)
+version du 17 février 2022
 
 La version la plus récente de ce document: [https://github.com/mhvwerts/Python-mecatronique](https://github.com/mhvwerts/Python-mecatronique).
 
@@ -37,7 +37,7 @@ OS X et Linux, les procédures sont similaires. Une fois l'interface en
 ligne de commande ouverte, avec l'environnement Anaconda/Miniconda
 activé, les instructions sur les trois systèmes sont identiques.
 
-**Nota bene 1.** *Notre conseil est d'utiliser* **Python 3.7** *afin de garantir la meilleure compatibilité. Cherchez donc à installer cette version stable.*
+**Nota bene 1.** *Notre conseil est d'utiliser* **Python 3.9** *afin de garantir la meilleure compatibilité. Cherchez donc à installer cette version stable.*
  
 **Nota bene 2.** *Nous sommes conscients que d'autres procédures d'installation sont envisageables, mais nous ne pouvons pas garantir leur pertinence. Nous ne serons pas en mesure de vous aider en cas de problèmes avec ces procédures. En revanche, si vous avez du succès avec votre propre méthode, n'hésitez pas à la partager avec nous.*
 
@@ -57,13 +57,13 @@ sont similaires. Les particularités de l'installation sur ces deux systèmes-l�
 
 ### 1.1. Windows
 
-#### 1.1.1. installation Miniconda3 (Python 3.7)
+#### 1.1.1. installation Miniconda3 (Python 3.9)
 
 Visitez le lien:
 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
 pour le logiciel d'installation de "Miniconda3".
 
-(i) Téléchargez et exécutez **Python 3.7 - Miniconda3 Windows 64-bit**.
+(i) Téléchargez et exécutez **Python 3.9 - Miniconda3 Windows 64-bit**.
 
 <!-- ![](media/image1.png) -->
 <img src="media/image1.png" alt="screen shot 1" title="screen shot 1" width="90%"/>
@@ -130,7 +130,7 @@ Visitez le lien:
 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
 pour le logiciel d'installation de "Miniconda3".
 
-Téléchargez et exécutez **Miniconda3 MacOSX 64-bit pkg (Python 3.7)**. Suivez les instructions, en vous référant aux instructions Windows pour choisir les options.
+Téléchargez et exécutez **Miniconda3 MacOSX 64-bit pkg (Python 3.9)**. Suivez les instructions, en vous référant aux instructions Windows pour choisir les options.
 
 Ouvrez une fenêtre "Terminal" ou "Miniconda Prompt" (interface en ligne de commande) pour la suite ("Installation, partie 2").
 
@@ -138,16 +138,16 @@ Ouvrez une fenêtre "Terminal" ou "Miniconda Prompt" (interface en ligne de comm
 
 ### 1.3. Particularités pour Linux
 
-**IMPORTANT** *Il n'est pas nécessaire (c'est même déconseillé) d'installer Miniconda3 avec des privilèges "administrateur de système". Evitez donc ``sudo``.*
+**IMPORTANT** *Il est déconseillé d'installer Miniconda3 avec des privilèges "administrateur de système". Evitez donc d'user de ``sudo``.*
 
 Visitez le lien:
 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
-pour le logiciel d'installation de "Miniconda3". La version à installer est "Miniconda3 Linux 64-bit (Python 3.7)".
+pour le logiciel d'installation de "Miniconda3". La version à installer est "Miniconda3 Linux 64-bit (Python 3.9)".
 
 Des [instructions pour installer](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) sont disponibles sur le site oueb de Conda. En particulier, pour exécuter le script d'installation on peut utiliser (ligne de commande, avec le répertoire de téléchargement comme répertoire de travail).
 
 ```
-bash Miniconda3-py37_4.10.3-Linux-x86_64.sh
+bash Miniconda3-py39_4.11.0-Linux-x86_64.sh
 ```
 
 Répondre aux questions suivant les indications données pour l'installation Windows. *Attention* en particulier de bien répondre "YES" à la question “Do you wish the installer to initialize Anaconda3 by running conda init?” (sauf si vous avez vraiment une bonne raison pour répondre "NON"...)
@@ -161,7 +161,7 @@ Pour commencer la partie 2 de l'installation, il faut fermer la fenêtre Termina
 Cela arrive facilement de répondre "NON" de façon non intentionnelle à la question sur l'initialisation. Dans ce cas:
 
 
-> If you enter “no”, then conda will not modify your shell scripts at all. In order to initialize after the installation process is done, first run ``source <path to conda>/bin/activate`` and then run ``conda init``.
+> If you enter “no”, then conda will not modify your shell scripts at all. In order to initialize after the installation process is done, first run `source <path to conda>/bin/activate` and then run `conda init`.
 
 
 
@@ -178,22 +178,24 @@ incidence sur le succès ultime de l'opération.
 Dans l'interface en ligne de commande, faites exécuter successivement
 les instructions suivantes. Une connexion Internet est nécessaire, car
 les instructions "conda install" conduiront au téléchargement des
-composants logiciels réquis. **N'oubliez surtout pas les deux premières
+composants logiciels réquis.
+
+**N'oubliez surtout pas les deux premières
 instructions "conda config"**.
 
 ```
 conda config --add channels conda-forge
 
 conda config --set channel_priority strict
-
-conda install scipy
-
-conda install matplotlib
-
-conda install notebook
-
-conda install spyder
 ```
+
+Ensuite, vous installerez les bibliothèques:
+
+```
+conda install pyserial scipy matplotlib notebook jupyterlab spyder
+```
+
+*Il y aura probablement quelques "warnings" qui seront affichés. Comme indiqué, ils seront sans incidence sur l'installation*
 
 Optionnellement (obligatoirement pour le cours "Thermodynamique et Phénomènes de Transport"), vous pouvez installer CoolProp et Fipy.
 
@@ -292,18 +294,18 @@ Jupyter Notebook dans votre navigateur. (Ou, si vous n'avez pas installé CoolPr
 The source of this document is in GitHub-flavoured Markdown (``.md``). A DOCX version can be generated using [Pandoc](https://pandoc.org).
 
 ```
-pandoc mektro2021_2022_installation_scientific_python_gfm.md -f gfm -t html5 -s -o mektro2021_2022_installation_scientific_python_intermediate.html
+pandoc mektro_installation_scientific_python_gfm.md -f gfm -t html5 -s -o mektro_installation_scientific_python_intermediate.html
 
-pandoc mektro2021_2022_installation_scientific_python_intermediate.html -f html -t docx -s -o mektro2021_2022_installation_scientific_python_gfm.docx
+pandoc mektro_installation_scientific_python_intermediate.html -f html -t docx -s -o mektro_installation_scientific_python_gfm.docx
 ```
 
 A ``PDF`` file can be generated using [Pandoc](https://pandoc.org).
 
 ```
-pandoc mektro2021_2022_installation_scientific_python_gfm.md -f gfm -t html -s -o mektro2021_2022_installation_scientific_python_gfm.pdf
+pandoc mektro_installation_scientific_python_gfm.md -f gfm -t html --pdf-engine=wkhtmltopdf -s -o mektro_installation_scientific_python_gfm.pdf
 ```
 
 
-## To-do's
+### To-do's
 - Create a Makefile to generate the PDF and DOCX, *e.g.* ``make pdf``
-- Fix the layout on the generated DOCX and PDF documents.
+
