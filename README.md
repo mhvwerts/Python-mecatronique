@@ -11,7 +11,7 @@
 
 ---
 
-Les instructions ci-dessous ont été élaborés pour que tout mécatronicien et toute mécatronicienne ait accès à un environnement logiciel Python scientifique standardisé et fonctionnel.
+Les instructions ci-dessous avaient été élaborées pour que tout mécatronicien et toute mécatronicienne ait accès à un environnement logiciel Python scientifique standardisé et fonctionnel.
 
 ## Installation de l'environnement Miniconda 3
 
