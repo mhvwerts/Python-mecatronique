@@ -21,6 +21,6 @@ Voici les [instructions, conseils et consignes](mektro_installation_scientific_p
 Nous avons ici deux exemples de notebooks Jupyter que vous pouvez télécharger et essayer avec votre Python Miniforge.
 
 - [Example 1 - A Rankine cycle with CoolProp.ipynb](./Example%201%20-%20A%20Rankine%20cycle%20with%20CoolProp.ipynb) - Téléchargement direct: [(clic-droit)](https://raw.githubusercontent.com/mhvwerts/Python-mecatronique/master/Example%201%20-%20A%20Rankine%20cycle%20with%20CoolProp.ipynb)
-- [Example 2 - Scipy special functions and PyFVTool.ipynb](./Example%202%20-%20Scipy%20special%20functions%20and%PyFVTool.ipynb) - Téléchargement direct: [(clic-droit)](https://raw.githubusercontent.com/mhvwerts/Python-mecatronique/master/Example%202%20-%20Scipy%20special%20functions%20and%20PyFVTool.ipynb)
+- [Example 2 - Scipy special functions and PyFVTool.ipynb](./Example%202%20-%20Scipy%20special%20functions%20and%20PyFVTool.ipynb) - Téléchargement direct: [(clic-droit)](https://raw.githubusercontent.com/mhvwerts/Python-mecatronique/master/Example%202%20-%20Scipy%20special%20functions%20and%20PyFVTool.ipynb)
 
 
