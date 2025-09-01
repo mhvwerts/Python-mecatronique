@@ -2,10 +2,11 @@ archive/
 local/
 __pycache__/
 .ipynb_checkpoints/
+.virtual_documents/
 package*/
 *.zip
 *.so
 *.docx
+*.odt
 *.bak
-mektro2020_2021_intermediate.html
 
