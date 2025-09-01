@@ -1,8 +1,8 @@
 # Python-mécatronique: Python scientifique au département mécatronique de l'ENS Rennes
 
-Les instructions ci-dessous ont été élaborées pour que tout mécatronicien et toute mécatronicienne ait accès à un environnement logiciel Python scientifique standardisé et fonctionnel.
+Les instructions ci-dessous ont été élaborées pour que tout mécatronicien et toute mécatronicienne ait accès à un environnement logiciel Python scientifique standardisé et fonctionnel. Cet environnement est basé sur [Miniforge3](https://conda-forge.org/download/).
 
-Plus tard, vous pourrez faire évoluer votre installation initiale de Miniforge au gré de vos besoins. Il n'y aura pas de problème pour changer de 'distribution' Python (ou de système d'exploitation) plus tard: vous ne serez pas enfermé.e.s dans un seul système, et vous pourrez déménager vos programmes et les utiliser ailleurs.
+Plus tard, vous pourrez faire évoluer votre installation initiale de Miniforge3 au gré de vos besoins. Il n'y aura pas de problème pour changer de 'distribution' Python (ou de système d'exploitation) plus tard: vous ne serez pas enfermé.e.s dans un seul système, et vous pourrez déménager vos programmes et les utiliser ailleurs.
 
 Dans nos propres travaux au laboratoire, nous nous basons essentiellement sur les principales bibliothèques de l'écosystème Python scientifique: NumPy-SciPy-Matplotlib-Xarray-tqdm-pyserial.
 
